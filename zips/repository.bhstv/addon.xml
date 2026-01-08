@@ -1,0 +1,14 @@
+<addon id="repository.bhstv" name="BHS TV Repo" version="1.0.0" provider-name="Baianobr123">
+    <extension point="xbmc.addon.repository" name="BHS TV Repo">
+        <dir>
+            <info compressed="false">https://baianobr123.github.io/bhstvrepo/zips/addons.xml</info>
+            <checksum>https://baianobr123.github.io/bhstvrepo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://baianobr123.github.io/bhstvrepo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositório BHS TV</summary>
+        <description>Downloads e atualizações para BHS TV</description>
+        <platform>all</platform>
+    </extension>
+</addon>
