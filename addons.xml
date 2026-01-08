@@ -17,4 +17,19 @@
         </assets>
     </extension>
 </addon>
+
+<addon id="repository.bhstv" name="[B] [COLOR white]Repositorio:[/COLOR] [COLOR red]BHS TV[/COLOR] [/B]" version="1.0.0" provider-name="BHS TV">
+    <extension point="xbmc.addon.repository" name="[B] [COLOR white]Repositorio:[/COLOR] [COLOR red]BHS TV[/COLOR] [/B]">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Baianobr123/bhstvrepo/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Baianobr123/bhstvrepo/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Baianobr123/bhstvrepo/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Instale meus addons</summary>
+        <description>Este repositório contém meus plugins exclusivos para o Kodi.</description>
+        <platform>all</platform>
+    </extension>
+</addon>    
     </addons>
