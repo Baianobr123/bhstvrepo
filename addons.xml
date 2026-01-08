@@ -2,11 +2,9 @@
 <addons>
     <addon id="repository.bhstv" name="BHS TV Repo" version="1.0.0" provider-name="Baianobr123">
         <extension point="xbmc.addon.repository" name="BHS TV Repo">
-            <dir>
-                <info compressed="false">https://baianobr123.github.io/bhstvrepo/addons.xml</info>
-                <checksum>https://baianobr123.github.io/bhstvrepo/addons.xml.md5</checksum>
-                <datadir zip="true">https://baianobr123.github.io/bhstvrepo/</datadir>
-            </dir>
+            <info compressed="false">https://cdn.jsdelivr.net/gh/Baianobr123/bhstvrepo/addons.xml</info>
+            <checksum>https://cdn.jsdelivr.net/gh/Baianobr123/bhstvrepo/addons.xml.md5</checksum>
+            <datadir zip="false">https://cdn.jsdelivr.net/gh/Baianobr123/bhstvrepo/</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Repositório BHS TV</summary>
@@ -33,3 +31,4 @@
         </extension>
     </addon>
 </addons>
+
